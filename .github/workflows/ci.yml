@@ -28,7 +28,7 @@ jobs:
         with:
           go-version: 1.24
 
-      - name: Verify Go installation
+      - name: Verify Go install installation
         run: go version
 
       - name: Initialize Go module (if needed)
